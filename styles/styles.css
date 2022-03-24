@@ -343,6 +343,65 @@ section {
   text-transform: uppercase;
 }
 
+.about-stats {
+  padding-bottom: 4rem;
+}
+
+.about-stats .progress-bars {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.about-stats .progress-bars .progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-stats .progress-bars .progress-bar .prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .prog-text {
+  color: var(--color-white);
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress {
+  width: 100%;
+  height: .45rem;
+  background-color: var(--color-gray-4);
+  margin-left: 1rem;
+  position: relative;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 60%;
+}
+
 /*Independent-content*/
 .btn-container {
   display: -webkit-box;
