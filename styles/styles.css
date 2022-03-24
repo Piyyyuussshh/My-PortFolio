@@ -382,7 +382,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .prog-text {
-  color: var(--color-white);
+  color: var(--color-gray-4);
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress {
@@ -402,6 +402,38 @@ section {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   width: 60%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 100%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .aws {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .nosql {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .django {
+  width: 90%;
 }
 
 /*Independent-content*/

@@ -277,7 +277,7 @@ section{
                 display: flex;
                 align-items: center;
                 .prog-text{
-                    color : var(--color-white);
+                    color : var(--color-gray-4);
                 }
                 .progress{
                     width: 100%;
@@ -293,9 +293,32 @@ section{
                         background-color: var(--color-secondary);
                         transition: all .4s ease-in-out;
                         width : 60%;
-
-
                     }
+                    .html{
+                        width: 80%;
+                    }
+                    .node{
+                        width: 90%;
+                    }
+                    .react{
+                        width: 90%;
+                    }
+                    .python{
+                        width: 100%;
+                    }
+                    .aws{
+                        width: 70%;
+                    }
+                    .sql{
+                        width: 80%;
+                    }
+                    .nosql{
+                        width: 80%;
+                    }
+                    .django{
+                        width: 90%;
+                    }
+
                 }
             }
         }
