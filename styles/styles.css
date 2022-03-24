@@ -256,7 +256,7 @@ section {
 
 .header-content .right-header .p {
   margin: 1.5rem;
-  line-height: 2rem;
+  line-height: 5rem;
 }
 
 /*About container*/
@@ -272,6 +272,8 @@ section {
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
